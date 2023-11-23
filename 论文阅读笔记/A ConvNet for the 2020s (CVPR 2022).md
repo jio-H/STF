@@ -85,7 +85,9 @@ ConvNets似乎失去动力的唯一原因是（分层）在许多视觉任务中
 
 作者想要将CNN架构和Transformers做对比，研究Transformers到底强在哪里？CNN的极限又在哪里。
 
-所以论文通过仿照Swin Transformers结构，对CNN进行修改，以达到更高更快的效果。
+所以论文通过仿照Swin Transformers结构，经过大量的实验，对CNN进行修改，以达到更高更快的效果。
+
+我认为可以学习的点是如何通过对三个部分的改变以达到CNN网络的优化，在以后的实验中可以进行尝试和替换。
 
 
 
