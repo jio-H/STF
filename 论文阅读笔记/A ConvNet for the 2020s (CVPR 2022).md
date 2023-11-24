@@ -6,7 +6,7 @@ A ConvNet for the 2020s（CVPR2022）
 
 [【论文简述及翻译】A ConvNet for the 2020s(CVPR 2022)](https://blog.csdn.net/qq_43307074/article/details/127247752)
 
-
+[全方位无死角比较CNN与Vision Transformers(ViT)](https://mp.weixin.qq.com/s/CrKQSvuftugolVCk52jP1g)
 
 ## 值得注意的点
 
