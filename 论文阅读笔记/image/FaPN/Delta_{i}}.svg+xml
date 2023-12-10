@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.983ex" height="2.509ex" style="vertical-align: -0.671ex;" viewBox="0 -791.3 1284.4 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">\mathbf{\Delta_{i}}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAINB-394" d="M901 12Q901 7 892 0H479Q65 0 62 2Q56 6 56 11Q56 14 242 347T433 685Q438 694 450 696Q454 698 480 698H506L523 687Q526 683 711 354T899 17Q901 13 901 12ZM653 137L427 538L202 137L315 136H540L653 137Z"></path>
+<path stroke-width="1" id="E1-MJMAINB-69" d="M72 610Q72 649 98 672T159 695Q193 693 217 670T241 610Q241 572 217 549T157 525Q120 525 96 548T72 610ZM46 442L136 446L226 450H232V62H294V0H286Q271 3 171 3Q67 3 49 0H40V62H109V209Q109 358 108 362Q103 380 55 380H43V442H46Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAINB-394" x="0" y="0"></use>
+ <use transform="scale(0.707)" xlink:href="#E1-MJMAINB-69" x="1355" y="-213"></use>
+</g>
+</svg>

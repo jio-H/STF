@@ -1,0 +1,1 @@
+[经典神经网络论文超详细解读（六）——DenseNet学习笔记（翻译＋精读＋代码复现）](https://blog.csdn.net/weixin_43334693/article/details/128478420)
