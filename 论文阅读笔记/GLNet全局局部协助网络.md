@@ -28,19 +28,19 @@ SSIM
 
 1.1. Contributions
 
-- 研究了超高分辨率图像的分割问题，其目标是在保证分割精度的同时，提高内存使用效率，有针对性的提出了一个有着高内存使用效率的分割模型 GLNet，对于高达30M像素的超高分辨率图像，GLNet 的训练只需要1块1080Ti GPU，而推理仅需要2GB的显存；
+- 研究了**超高分辨率图像的分割问题**，其目标是在保证分割精度的同时，提高内存使用效率，有针对性的提出了一个有着高内存使用效率的分割模型 GLNet，对于高达30M像素的超高分辨率图像，GLNet 的训练只需要1块1080Ti GPU，而推理仅需要2GB的显存；
 - GLNet 可以有效的聚合全局上下文信息和高分辨率的局部细节特征，从而得到高质量的分割结果；
 - 为了解决前景和背景不平衡的问题，进一步提出了从粗到细的 GLNet 变体，通过全局分支来进行粗略的分割，得到前景区域之后再利用局部分支进行精细的分割。
 
 
 
-网络架构
+###### 网络架构
 
 ![image-20231211161826361](image/GLNet%E5%85%A8%E5%B1%80%E5%B1%80%E9%83%A8%E5%8D%8F%E5%8A%A9%E7%BD%91%E7%BB%9C/image-20231211161826361.png)
 
 全局和局部分支有着相同的骨干网络，两个分支之间会进行**深度特征共享 (Deep Feature Map Sharing)**，通过**聚合两个分支的输出**可以得到最后的分割结果 (aggregation laye）。为了约束两个分支并进行稳定的训练，针对局部分支的训练采用了**弱耦合正则化**方法。
 
-**深度特征共享 (Deep Feature Map Sharing)**
+###### **深度特征共享 (Deep Feature Map Sharing)**
 
 <img src="image/GLNet%E5%85%A8%E5%B1%80%E5%B1%80%E9%83%A8%E5%8D%8F%E5%8A%A9%E7%BD%91%E7%BB%9C/image-20231211162336018.png" alt="image-20231211162336018" style="zoom:50%;" />
 
@@ -50,7 +50,7 @@ SSIM
 
 
 
-**Branch Aggregation with Regularization:**
+###### **Branch Aggregation with Regularization:**
 
 聚合层（aggregation laer)是一个3x3的卷积层，用两个分支最后一层的串联作为输入。
 
